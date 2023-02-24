@@ -1,0 +1,204 @@
+html{
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+  background-color: #000;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+footer {
+  background: rgb(0, 0, 0);
+  color: #ffffffd0;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+/* Шапка сайта НАЧАЛО */
+main a {
+    color: rgb(94, 94, 94); /* Цвет текста */
+    background: rgb(255, 255, 255); /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    transition: -1s linear; /* Время изменения */
+    text-decoration: none;
+  }
+
+main a:hover {
+  color: #215dccd3; /* Цвет текста */
+  background: rgb(255, 255, 255); /* Цвет фона */
+  }
+
+.menu {
+  flex-grow: 1;
+  }
+
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 2px 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  list-style: none;
+  }
+
+.menu li {
+  margin-right: 50px;
+  }
+
+.menu li:last-child {
+  margin-right: 0;
+  }
+
+.menu a {
+  color: #000; /* Цвет текста */
+  background: rgb(255, 255, 255); /* Цвет фона */
+  padding: 2px; /* Поля вокруг текста */
+  transition: 0s linear; /* Время изменения */
+  text-decoration: none;
+  }
+
+.menu a:hover {
+  color: #ffffff; /* Цвет текста */
+  background: #215dccd3; /* Цвет фона */
+  }
+
+.logo {
+  padding-top: 20px;
+  padding-left: 10%;
+   margin-right: 30px;
+  }
+
+.menu a,
+.menu .active {
+  display: block;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  letter-spacing: .27em;
+  }
+
+.menu .active {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+
+.phone {
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 24px;
+}
+.phone a {
+  color: rgba(136, 136, 136, 0.63);
+  text-decoration: none;
+}
+
+/* Шапка сайта КОНЕЦ */
+
+/* Тело BLOG НАЧАЛО. Главная надпись. */
+
+.tagline,
+.tagline1,
+.tagline2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  }
+
+.tagline-text {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+
+.tagline-text h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 150px;
+  background-color: #000000;
+  /* background-image: linear-gradient(90deg, #001799, #bac6f8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+ }
+
+ 
+/* Тело BLOG КОНЕЦ. Главная надпись. */
+
+/* Статья №1 НАЧАЛО */
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.container_centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container img {
+  border-radius: 60px;
+}
+
+h1 span {
+	color			: white;
+	font			: bold 45px/70px Helvetica, Sans-Serif;
+	letter-spacing		: -1px;
+	background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 10px;
+}
+
+/* Статья №1 КОНЕЦ */
+
+/* Подвал сайта НАЧАЛО */
+
+.basement {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  flex-grow: 1;
+}
+
+.basement img {
+  filter: invert(1);
+}
+
+.basement li {
+  margin-right: 15%;
+  margin-bottom: 5%;
+}
+
+.basement li:last-child {
+  margin-right: 0;
+}
+
+.basement ul {
+  display: flex;
+  flex-flow: row nowrap;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  list-style: none;
+  margin: 2px 0 0;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* Подвал сайта КОНЕЦ */
