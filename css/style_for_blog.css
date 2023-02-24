@@ -6,14 +6,17 @@ html{
 }
 
 header {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background:rgb(0, 0, 0);
   }
 
 footer {
-  background: rgb(0, 0, 0);
   color: #ffffffd0;
 }
 
@@ -124,7 +127,7 @@ main a:hover {
 
 .tagline-text h1 {
   font-family: Roboto, Arial, sans-serif;
-  font-size: 150px;
+  font-size: 9vw;
   background-color: #000000;
   /* background-image: linear-gradient(90deg, #001799, #bac6f8);
   background-clip: text;
@@ -137,33 +140,85 @@ main a:hover {
 
 /* Статья №1 НАЧАЛО */
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
+/* Блок #4 на стр. INDEX НАЧАЛО */
+
+.index_article1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index_article1 > div {
+  width: 80%;
+  float: left;
+  background: #215dcc;
+  background-image: url(../img/coding.jpg);
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+  margin: 0 10%;
+  margin-bottom: 5%;
   text-align: center;
-  color: white;
+  position: relative;
+  padding-bottom: 20%;
+  cursor: pointer;
+  -webkit-transition:all 0.35s linear;
+  transition:all 0.35s linear;
+  border-radius: 30px;
 }
 
-/* Centered text */
-.container_centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+/*Тень снизу у блока при наведении*/
+.index_article1 > div:hover {
+  -webkit-box-shadow: 0 35px 35px -35px #ffffff;
+  -moz-box-shadow: 0 35px 35px -35px #ffffff;
+  box-shadow: 0 35px 35px -35px #ffffff;
 }
 
-.container img {
-  border-radius: 60px;
+.index_article1 h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: left;
+  background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background		: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 4vw;
+  line-height: 4vw;
+  margin: 5% 5%;
+  margin-bottom: 10%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  /* background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
-h1 span {
-	color			: white;
-	font			: bold 45px/70px Helvetica, Sans-Serif;
-	letter-spacing		: -1px;
-	background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
-	background		: rgba(0, 0, 0, 0.7);
-	padding			: 10px;
+.index_article1 h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: left;
+  background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background		: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 2vw;
+  margin: 5% 5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffffc9;
 }
+
+h1.news {
+  padding-left: 10px;
+  margin-right:72.5%;
+}
+
+h3.news {
+  margin-right:9%;
+  padding-left: 10px;
+}
+/* Блок #4 на стр. INDEX КОНЕЦ */
 
 /* Статья №1 КОНЕЦ */
 

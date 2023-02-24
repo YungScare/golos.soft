@@ -27,34 +27,10 @@ footer a {
 
 /* Тело PROJECT НАЧАЛО. Главная надпись. */
 
-  .tagline-link {
-    text-align: center;
-    margin-bottom: 9%;
-  }
-
-  .tagline-link a {
-    font-size: 160px;
-    color: rgba(82, 82, 82, 0.829); /* Цвет текста */
-    background: rgb(255, 255, 255); /* Цвет фона */
-    padding: 2px; /* Поля вокруг текста */
-    transition: 1s linear; /* Время изменения */
-    text-decoration: none;
-    /* text-transform: uppercase; */
-    width: 50%;
-    height: 50%;
-    font-weight: 900;
-    line-height: 1.2;
-  }
-
-  .tagline-link a:hover {
-    color: #4c6eddd3; /* Цвет текста */
-    background: rgb(255, 255, 255); /* Цвет фона */
-  }
-
   .text h1 {
     display: flex;
     justify-content: center;
-    font-size: 180px;
+    font-size: 9vw;
     margin: auto;
     padding: auto;
     font-family: Roboto, Arial, sans-serif;
@@ -66,38 +42,24 @@ footer a {
   }
 
   .text {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     flex-grow: 1;
     padding-left: 50px;
   }
 
-
+/* Тело PROJECT КОНЕЦ. Главная надпись. */
 
 /* Блоки на стр. PROJECT НАЧАЛО */
 
-.projectBlock:after {
+.project_block:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* .projectBlock > div {
-  width: 60%;
-  float: left;
-  background: #215dcc;
-  background-image: linear-gradient(to bottom right, #e8eaf1, #f2f4ff);
-  margin: 5% 20%;
-  text-align: center;
-  position: relative;
-  padding-bottom: 10%;
-  cursor: pointer;
-  -webkit-transition:all 0.35s linear;
-  transition:all 0.35s linear;
-  border-radius: 50px;
-} */
 
-.projectBlock > div {
+.project_block > div {
   width: 80%;
   float: left;
   background: #215dcc;
@@ -110,7 +72,7 @@ footer a {
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .project-item > p {
@@ -120,7 +82,7 @@ footer a {
 
 
 /*Тень снизу у блока при наведении*/
-.projectBlock > div:hover {
+.project_block > div:hover {
   -webkit-box-shadow: 0 35px 35px -35px #000000;
   -moz-box-shadow: 0 35px 35px -35px #000000;
   box-shadow: 0 35px 35px -35px #000000;
@@ -144,20 +106,20 @@ footer a {
   padding-right: 3%;
 }
 
-.projectBlock h1 {
-  font-size: 50px;
+.project_block h1 {
+  font-size: 2.8vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #000000;
   background-color: #ffffff;
   /* background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-.projectBlock h3 {
+.project_block h3 {
   margin: 2rem 0;
-  font-size: 30px;
+  font-size: 1.8vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #00000070;
 }
@@ -186,4 +148,3 @@ h1.Ilant {
 
 /* Блоки на стр. PROJECT КОНЕЦ */
 
-/* Тело PROJECT КОНЕЦ. Главная надпись. */
