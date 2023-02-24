@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты и кейсы компании Голос.Софт</title>
+    <link rel="stylesheet" href="css/style_for_blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="img/golos_soft_inversion.png" width="150"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="project.html">Проекты</a></li>
+                <li><a class="active" href="service.html">Услуги</a></li>    
+                <li><a class="active" href="blog.html">Блог</a></li>
+            </ul>
+        </div>
+        <div class="phone">
+            <a href="phone:89997777777">8 (999) 777-77-77</a>
+        </div>
+    </header>
+    <main>
+        <section class="tagline-text">
+            <h1 class="tagline" style="color: rgb(255, 255, 255)">Новые технологии</h1>
+            <h1 class="tagline1" style="color: rgb(255, 255, 255)">И</h1>
+            <h1 class="tagline2" style="color: rgb(255, 255, 255)">Тренды IT</h1>
+        </section>
+        <div class="container">
+            <img src="img/microsoft.jpg" alt="" width="80%">
+            <div class="container_centered"> <h1><span><q>Если вашего бизнеса нет в интернете, значит, вас нет и в бизнесе</q> <br>Билл Гейтс</span></h1></div>
+        </div>
+    </main>
+    <script>
+        const tl = gsap.timeline({defaults: { duration: 1 } });
+        tl.from(".tagline",{ opacity:0, y:30 })
+        .from(".tagline1",{ opacity:0, y:30 })
+        .from(".tagline2",{ opacity:0, y:30 });
+    </script>
+    <footer>
+        <div class="basement">
+            <ul>
+                <li>
+                    Голос.Софт
+                </li>
+                <li>
+                    &copy; Все права защищены <br> <br>
+                    <img src="img/phone.svg" alt="" width="15">
+                    Телефон <br> <a href="phone:89997777777">8 (999) 777-77-77</a> <br> <br>
+                    <img src="img/envelope-fill.svg" alt="" width="15">
+                    Почта <br> <a href="golos_soft@mail.com">golos_soft@mail.com</a>
+                </li>
+                <li>
+                    <img src="img/geo-alt-fill.svg" alt="" width="15">
+                    ЧЕЛЯБИНСК <br> 40-летия Победы 3,<br> Офисное помещение,<br> 454100</a>
+                </li>
+                <li>Разработчик данного <br> произведения искусства <a href="https://vk.com/web_insane" target="_blank"> здесь</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
