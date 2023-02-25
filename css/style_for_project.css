@@ -42,10 +42,9 @@ footer a {
   }
 
   .text {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    flex-grow: 1;
-    padding-left: 50px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  flex-grow: 1;
   }
 
 /* Тело PROJECT КОНЕЦ. Главная надпись. */
@@ -72,7 +71,7 @@ footer a {
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .project-item > p {
@@ -124,12 +123,8 @@ footer a {
   color: #00000070;
 }
 
-h1.ERP {
-  margin: 5% 21%;
-}
-
-h1.Ilant {
-  margin: 5% 14%;
+h1.title {
+  margin: 5% 17%;
 }
 
 .project-item a {
@@ -139,6 +134,7 @@ h1.Ilant {
 }
 
 .scale {
+  width: 5%;
   transition: 1s; /* Время эффекта */
  }
  

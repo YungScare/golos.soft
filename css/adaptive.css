@@ -1,0 +1,29 @@
+@media only screen and (max-widht:1200px) {
+  /*  */
+}
+
+@media only screen and (max-widht:992px) {
+  /*  */
+}
+
+@media only screen and (max-widht:768px) {
+  header {
+    padding: 0 15px;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+  }
+}
+
+@media only screen and (max-widht:480px) {
+  /*  */
+}
+
+@media only screen and (max-widht:320px) {
+  /*  */
+}

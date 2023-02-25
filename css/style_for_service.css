@@ -112,10 +112,9 @@ text-decoration: none;
   }
 
   .text {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    flex-grow: 1;
-    padding-left: 50px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  flex-grow: 1;
   }
 
 
@@ -142,7 +141,7 @@ text-decoration: none;
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 
@@ -166,7 +165,7 @@ text-decoration: none;
   /* background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .service_block1 h3 {
@@ -199,13 +198,13 @@ text-decoration: none;
   margin-left: 10%;
   margin-right: 2.5%;
   margin-bottom: 5%;
-  padding-bottom: 15%;
+  padding-bottom: 20%;
   text-align: center;
   position: relative;
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 
@@ -230,7 +229,7 @@ text-decoration: none;
   /* background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .service_block2 h3 {
@@ -262,13 +261,13 @@ text-decoration: none;
   margin-right: 10%;
   margin-left: 2.5%;
   margin-bottom: 5%;
-  padding-bottom: 1%;
+  padding-bottom: 5%;
   text-align: center;
   position: relative;
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 
@@ -292,7 +291,7 @@ text-decoration: none;
   /* background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .service_block3 h3 {
@@ -333,7 +332,7 @@ text-decoration: none;
   cursor: pointer;
   -webkit-transition:all 0.35s linear;
   transition:all 0.35s linear;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 
@@ -389,7 +388,6 @@ text-decoration: none;
 }
 
 .basement li {
-  margin-right: 15%;
   margin-bottom: 5%;
 }
 
@@ -399,7 +397,9 @@ text-decoration: none;
 
 .basement ul {
   display: flex;
+  align-items: flex-start;
   flex-flow: row nowrap;
+  justify-content: space-between;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   line-height: 25px;
